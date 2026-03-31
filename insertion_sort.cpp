@@ -1,9 +1,13 @@
+// Insertion Sort Program - Final Version
+// Sorts an array of integers using the insertion sort algorithm
+
 #include <iostream>
 using namespace std;
 
 int arr[20];
 int n;
 
+// Input function: validates size and reads array elements
 void input() {
     while (true) {
         cout << "Enter the number of elements in the array: ";
@@ -24,6 +28,7 @@ void input() {
     }
 }
 
+// Insertion sort function: sorts and prints each step
 void insertionSort() {
     int temp;
     int j;
@@ -42,6 +47,7 @@ void insertionSort() {
     }
 }
 
+// Display function: prints the final sorted array
 void display() {
     cout << endl;
     cout << "\n================\n";
