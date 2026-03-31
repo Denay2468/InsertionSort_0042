@@ -22,8 +22,8 @@ void input() {
         cout << "Element " << (i + 1) << ": ";
         cin >> arr[i];
     }
-
 }
+
 void insertionSort() {
     int temp;
     int j;
@@ -41,6 +41,7 @@ void insertionSort() {
         }
     }
 }
+
 void display() {
     cout << endl;
     cout << "\n================\n";
@@ -53,5 +54,9 @@ void display() {
 }
 
 int main() {
+    input();
+    insertionSort();
+    display();
+    system("pause");
     return 0;
 }
